@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+
+<body>
+
+    <div class="page">
+        <header class="sticky-top ">
+            <div
+                class="portfolio-navbar name p-3 navbar navbar-expand-lg d-flex  flex-row justify-content-between align-items-center">
+                <div>
+                    <div class="logo-title navbar-brand d-flex flex-row align-items-center gap-2">
+                        <img src="./assets/images/logo.png" alt="" class="logo ">
+                        <span>Rachit Lahase</span>
+                    </div>
+                </div>
+                <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse flex-grow-1" id="menu">
+                    <nav class="ms-auto">
+                        <ul class=" navbar-nav  gap-4">
+                            <li class="nav-item"><a href="#home" class="nav-link"><span class="bi bi-house-door"></span>
+                                    Home</a></li>
+                            <li class="nav-item "><a href="#about" class="nav-link"> <span
+                                        class="bi bi-info-circle"></span>
+                                    About</a></li>
+                            <li class="nav-item "><a href="#skill" class="nav-link"><span
+                                        class="bi bi-code-slash"></span>
+                                    Skills</a></li>
+                            <li class="nav-item "><a href="#project" class="nav-link"><span
+                                        class="bi bi-folder2-open"></span> Project</a></li>
+                            <li class="nav-item "><a href="#experience" class="nav-link"><span
+                                        class="bi bi-clock-history"></span> Experience</a></li>
+                            <li class="nav-item "><a href="#contact" class="nav-link"><span
+                                        class="bi bi-envelope"></span>
+                                    Contact</a></li>
+
+                        </ul>
+                    </nav>
+                    <div class=" navbar-nav gap-3 ms-4 align-items-center">
+                        <div>
+                            <a href="https://github.com/Rachi358" target="_blank" rel="noopener noreferrer"> <span
+                                    class="bi bi-code"></span></a>
+                            <a href="https://www.linkedin.com/in/rachitlahase358/" target="_blank"
+                                rel="noopener noreferrer"><span class="bi bi-person-fill"></span></a>
+                        </div>
+
+                        <div class="resume">
+                            <a href="./assets/resume/rachit_rasume.pdf" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-sm rounded rounded-2">
+                                Resume
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="home">
+                <div class="container py-2 min-vh-100 d-flex align-items-center">
+                    <div class="row align-items-center">
+                        <div>
+
+                        </div>
+
+                        <!-- left content -->
+                        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                            <div>
+                                <span class=""></span>
+                                <span class="badge rounded-pill px-3 py-1 bg-primary">Available for Software Engineering
+                                    Opportunities</span>
+                            </div>
+
+                            <h1 class="d-flex flex-column display-4 fw-bold ">
+                                Hi, I'm Rachit Lahase. <br>
+                                <span class="designation">Python Backend Developer</span>
+                            </h1>
+
+                            <p class="w-75">
+                                build reliable, scalable backend systems and intelligent APIs. Passionate about turning
+                                complex
+                                problems
+                                into elegant, performance-driven solutions.
+                            </p>
+
+                            <div class="d-flex gap-3">
+                                <a href="https://github.com/Rachi358"
+                                    class="btn btn-sm btn-primary btn-outline-light px-3 py-1 rounded rounded-2"
+                                    target="_blank" rel="noopener noreferrer">View
+                                    My
+                                    Work</a>
+
+                                <a href="./assets/resume/rachit_rasume.pdf" download="Rachit-Lahase-Resume.pdf"
+                                    class="btn btn-sm btn-primary btn-outline-light px-3 py-1 rounded rounded-2">
+                                    Download Resume
+                                </a>
+
+
+                            </div>
+
+                            <div class="d-flex my-3 gap-4 align-items-center">
+                                <a href="" class="text-decoration-none d-inline-flex align-items-center"><span
+                                        class="bi bi-globe"> </span></a>
+                                <a href="https://github.com/Rachi358"
+                                    class="text-decoration-none d-inline-flex align-items-center" target="_blank"
+                                    rel="noopener noreferrer"><span class="bi bi-code"></span></a>
+                                <a href="" class="text-decoration-none d-inline-flex align-items-center"><span
+                                        class="bi bi-terminal"></span></a>
+                            </div>
+                        </div>
+
+                        <!-- Right content -->
+                        <div class="right-wrap col-12 col-lg-6">
+                            <div>
+                                <!-- terminal Elements -->
+                                <div
+                                    class="terminal d-flex flex-column gap-2  p-4 w-100 border rounded-3 overflow-auto">
+                                    <div class=" dots d-flex align-items-center gap-2 pb-3 border-bottom">
+                                        <div class="dot rounded-circle"></div>
+                                        <div class="dot rounded-circle"></div>
+                                        <div class="dot rounded-circle"></div>
+                                        <span class="small fw-semibold">view.py - backend-api</span>
+                                    </div>
+
+                                    <p class="mb-0 mt-2">
+                                        <span class="keyword">from</span>
+                                        <span>django.http</span>
+                                        <span class="keyword">import</span>
+                                        <span class="module">JsonResponse</span>
+                                    </p>
+
+
+                                    <p class="mb-0">
+                                        <span class="keyword">def </span>
+                                        <span class="function">project_status</span>(request):
+                                    </p>
+
+                                    <p class="mb-0">
+                                        <span></span>
+                                        <span class="keyword">return</span> JsonResponse({
+                                        <span class="string">"status"</span>:
+                                        <span class="string">"operational"</span>,
+                                        <span class="string">"developer"</span>:
+                                        <span class="string">"Rachit"</span>,
+                                        <span class="string">"backend"</span>:
+                                        <span class="string">"Django"</span>
+                                        })
+                                    </p>
+
+                                    <br>
+
+                                    <p class="mb-0 cursor">_</p>
+
+                                </div>
+                                <!-- Floating Elements -->
+                                <div
+                                    class="floating-element d-flex flex-row align-items-center gap-2 p-2 rounded rounded-3 top-0 end-0 shadow-sm">
+                                    <span class="bi bi-database"></span>
+                                    <div>
+                                        <p class="mb-0">Database Sync</p>
+                                        <p class="mb-0">Connected</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- About Section -->
+            <section id="about">
+                <div class="container py-2">
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <h2 class="about-me display-5 fw-bold">
+                                Engineering <br>
+                                <span>Excellence</span>
+                            </h2>
+
+                            <p class="mb-3">
+                                I am a backend specialist focused on Python ecosystem technologies. With a foundation in
+                                AI
+                                &amp; Data
+                                Science, I bridge the gap between complex data models and robust, user-facing APIs.
+                            </p>
+
+                            <p>
+                                My workflow prioritizes clean architecture, rigorous testing, and continuous
+                                integration.
+                                Whether it's
+                                architecting a microservice or optimizing database queries, I code with scalability in
+                                mind.
+                            </p>
+
+                        </div>
+
+                        <div class="col-12 col-lg-5">
+                            <div class="row g-4 p-3 small">
+
+                                <div class="col-6 stat p-3 rounded-3 border d-flex flex-column">
+                                    <span class="cnt display-6 fw-bold">0</span>
+                                    <span class="subtitle">YEAR EXPERIENCE</span>
+                                </div>
+
+                                <div class="col-6 stat p-3 rounded-3 border d-flex flex-column">
+                                    <span class="cnt display-6 fw-bold">03</span>
+                                    <span class="subtitle">MAJOR PROJECTS</span>
+                                </div>
+
+                                <div class="col-6 stat p-3 rounded-3 border d-flex flex-column">
+                                    <span class="cnt display-6 fw-bold">10+</span>
+                                    <span class="subtitle">TECH STACK</span>
+                                </div>
+
+                                <div class="col-6 stat p-3 rounded-3 border d-flex flex-column">
+                                    <span class="cnt display-6 fw-bold">100%</span>
+                                    <span class="subtitle">PASSION DRIVEN</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS SECTION -->
+            <section id="skill">
+                <div class="container py-2">
+
+                    <!-- Section Heading -->
+                    <div class="mb-5">
+                        <div class="skill-heading">
+                            <span></span>
+                            <h3>Technical Arsenal</h3>
+                        </div>
+
+                        <h2 class="display-5 fw-bold">Tools &amp; Technologies</h2>
+                    </div>
+
+                    <!-- Skill Cards -->
+                    <div class="row g-4">
+
+                        <!-- Backend Development -->
+                        <div class="col-12 col-md-6">
+                            <div class="skill-card h-100 rounded-3 border p-4">
+
+                                <div class="mb-4">
+                                    <div
+                                        class="d-inline-flex align-items-center justify-content-center p-3 rounded-3 bg-dark">
+                                        <span class="skill-icon bi bi-terminal"></span>
+                                    </div>
+                                </div>
+
+                                <h2 class="fw-semibold mb-3">Backend Development</h2>
+
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> Python
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> Django
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> FastAPI
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> Flask
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Database & ORMs -->
+                        <div class="col-12 col-md-6">
+                            <div class="skill-card h-100 rounded-3 border p-4">
+
+                                <div class="mb-4">
+                                    <div
+                                        class="d-inline-flex align-items-center justify-content-center p-3 rounded-3 bg-dark">
+                                        <span class="skill-icon bi bi-database"></span>
+                                    </div>
+                                </div>
+
+                                <h2 class="fw-semibold mb-3">Database &amp; ORMs</h2>
+
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> MySQL
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> SQLAlchemy
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Frontend Development -->
+                        <div class="col-12 col-md-6">
+                            <div class="skill-card h-100 rounded-3 border p-4">
+
+                                <div class="mb-4">
+                                    <div
+                                        class="d-inline-flex align-items-center justify-content-center p-3 rounded-3 bg-dark">
+                                        <span class="skill-icon bi bi-window"></span>
+                                    </div>
+                                </div>
+
+                                <h2 class="fw-semibold mb-3">Frontend Development</h2>
+
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> HTML
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> CSS
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> JavaScript
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> Bootstrap
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Tools -->
+                        <div class="col-12 col-md-6">
+                            <div class="skill-card h-100 rounded-3 border p-4">
+
+                                <div class="mb-4">
+                                    <div
+                                        class="d-inline-flex align-items-center justify-content-center p-3 rounded-3 bg-dark">
+                                        <span class="skill-icon bi bi-tools"></span>
+                                    </div>
+                                </div>
+
+                                <h2 class="fw-semibold mb-3">Tools</h2>
+
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> Git
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> GitHub
+                                    </span>
+
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 fw-semibold">
+                                        <span class="bi bi-dot text-info"></span> VS Code
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section id="project">
+                <div class="container py-2">
+
+                    <div class="mb-5">
+                        <div class="project-heading">
+                            <span></span>
+                            <h3>SELECTED WORKS</h3>
+                        </div>
+                        <h2 class="display-5 fw-bold">Featured Projects</h2>
+                        <button class="archives btn p-0 d-inline-flex align-items-center gap-2">View Full Archive<span
+                                class="bi bi-arrow-right"></span></button>
+                    </div>
+
+
+                    <div class="row gap-4">
+                        <!-- project -->
+                        <div class="project-card d-flex row overflow-hidden rounded-4 mb-5">
+                            <div class="col-12 col-lg-6">
+                                <img src="./assets/images/nids.jpg" alt="NIDS-Project"
+                                    class="h-100 w-100 object-fit-cover">
+                            </div>
+
+                            <div class="project-content col-12 col-lg-6 d-flex flex-column justify-content-center">
+                                <div>
+                                    <h2 class="project-title">Network Intrusion Detection System</h2>
+                                    <p class="project-description">An advanced security tool designed to monitor network
+                                        traffic in real-time,
+                                        leveraging machine learning algorithms to identify and alert on potential
+                                        malicious
+                                        activities and anomalies.
+                                    </p>
+                                </div>
+
+                                <div class="project-badge badge">
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Python</span>
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Machine
+                                        Learning</span>
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Scikit-Learn</span>
+                                </div>
+                                <div class="project-icon">
+                                    <a href="https://github.com/Rachi358/NIDS_FINAL" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none d-inline-flex align-items-center gap-2 mb-2"><span
+                                            class="bi bi-code"></span> Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- project -->
+                        <div class="project-card row overflow-hidden rounded-4 mb-5">
+
+                            <div class="col-12 col-lg-6  order-1 order-lg-2">
+                                <img src="./assets/images/blog.jpg" alt="NIDS-Project"
+                                    class="h-100 w-100 object-fit-cover">
+                            </div>
+
+                            <div
+                                class="project-content col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                                <div>
+                                    <h2 class="project-title">Flask-Blog Project</h2>
+                                    <p class="project-description">A full-stack blog platform that enables users to
+                                        create, publish, and manage blog posts, featuring secure admin authentication,
+                                        role-based access control,
+                                        and complete CRUD operations using Flask, PostgreSQL, and SQLAlchemy.
+                                    </p>
+                                </div>
+
+                                <div class="project-badge badge">
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Python</span>
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Flask</span>
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">HTML/CSS/Js</span>
+                                </div>
+                                <div class="project-icon">
+                                    <div>
+                                        <a href="https://github.com/Rachi358/python-Flask-Blog" target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="text-decoration-none d-inline-flex align-items-center gap-2 mb-2">
+                                            <span class="bi bi-code"></span> Source Code
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://python-flask-blog-1ed8.onrender.com" target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="text-decoration-none d-inline-flex align-items-center gap-2 mb-2">
+                                            <span class="bi bi-code"></span> Click to View
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- project -->
+                        <div class="project-card row overflow-hidden rounded-4 mb-5">
+                            <div class="col-12 col-lg-6">
+                                <img src="./assets/images/yaraai.jpg" alt="Yara-Project"
+                                    class="h-100 w-100 object-fit-cover">
+                            </div>
+
+                            <div class="project-content col-12 col-lg-6 d-flex flex-column justify-content-center">
+                                <div>
+                                    <h2 class="project-title">Yara AI Assistant</h2>
+                                    <p class="project-description">A voice-activated desktop assistant integrating
+                                        natural
+                                        language processing to
+                                        automate
+                                        mundane tasks, manage schedules, and retrieve context-aware information from the
+                                        web.
+                                    </p>
+                                </div>
+
+                                <div class="project-badge badge">
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Python</span>
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Gemini
+                                        API</span>
+                                    <span
+                                        class="d-inline-block bg-dark border border-secondary text-secondary px-2 py-1 rounded-2 m-1 fw-semibold">Speech
+                                        Recognition</span>
+                                </div>
+                                <div class="project-icon">
+                                    <a href="https://github.com/Rachi358/AI_ChatBot" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none d-inline-flex align-items-center gap-2 mb-2"><span
+                                            class="bi bi-code"></span> Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE & EDUCATION SECTION -->
+            <section id="experience">
+                <div class="container py-2">
+                    <div class="row">
+                        <!-- Experience Timeline -->
+                        <div class="experience col-12 col-lg-6">
+                            <div class="mb-5 experience-heading">
+                                <span></span>
+                                <h3>Experience</h3>
+                            </div>
+
+                            <div class="position-relative ps-5">
+                                <div class="timeline-line position-absolute top-0 bottom-0"></div>
+                                <div
+                                    class="timeline-dot position-absolute top-0 start-0 rounded-circle border border-2">
+                                </div>
+
+                                <h4>Web Development Organizer</h4>
+                                <p>Google Developer Groups (GDG) | 2024 - 2025</p>
+                                <p>
+                                    Organized technical workshops and hackathons. Mentored junior developers
+                                    in Python programming and backend architecture.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Education -->
+                        <div class="education col-12 col-lg-6 rounded rounded-4 p-4">
+                            <div class="mb-5 experience-heading">
+                                <span></span>
+                                <h3>Education</h3>
+                            </div>
+
+                            <div>
+                                <h4>B.Tech in AI &amp; Data Science</h4>
+                                <p class="university">SGBAU | 2022 - 2026</p>
+                                <p>Focused on machine learning, robust software engineering principles, and scalable
+                                    system
+                                    architectures.</p>
+
+                                <div>
+                                    <div class="gap-2 ">
+                                        <span class="bi bi-check-circle"></span>
+                                        <span>Data Structures &amp; Algorithms</span>
+                                    </div>
+
+                                    <div class="gap-2 ">
+                                        <span class="bi bi-check-circle"></span>
+                                        <span>Database Management Systems</span>
+                                    </div>
+
+                                    <div class="gap-2 ">
+                                        <span class="bi bi-check-circle"></span>
+                                        <span>Artificial Intelligence Concepts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT SECTION -->
+            <section id="contact">
+                <div class="container py-2">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="contact-heading mb-4">
+                                <h3 class="display-5 fw-bold">CONNECT WITH ME...</h3>
+                                <p class="contact-description">
+                                    Whether you have a project in mind or just want to chat about Python, APIs, and
+                                    scaling
+                                    systems, I'm
+                                    open to discussing new opportunities.
+                                </p>
+                            </div>
+
+                            <div class="d-flex flex-column gap-3">
+                                <div class="d-flex flex-row align-items-center gap-3">
+                                    <div>
+                                        <span class="bi bi-envelope contact-icon "></span>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 icon-title">Email</p>
+                                        <p><a href=""
+                                                class="text-decoration-none subtitle">rachitlahase2004@gmail.com</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-row align-items-center gap-3">
+                                    <div>
+                                        <span class="bi bi-geo-alt-fill contact-icon"></span>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 icon-title">Location</p>
+                                        <p><a href="" class="text-decoration-none subtitle">India / Remote</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <form id="contact-form" class="col-12 col-lg-6 d-flex flex-column gap-3 mb-4">
+
+                            <div>
+                                <label for="name" class="form-label">Name</label>
+                                <input id="name" name="name" type="text" placeholder="Name" class="form-control"
+                                    required>
+                            </div>
+
+                            <div>
+                                <label for="email" class="form-label">Mail</label>
+                                <input id="email" name="email" type="email" placeholder="Mail" class="form-control"
+                                    required>
+                            </div>
+
+                            <div>
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="message" id="message" placeholder="Message" class="form-control"
+                                    rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="send-msg btn btn-primary btn-outline-light rounded px-4 py-2">
+                                Send Message
+                            </button>
+
+                            <p id="form-status" role="status" aria-live="polite"></p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="footer-content p-4">
+                <div
+                    class="foot-title d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 pb-5">
+                    <div>
+                        <p class="fw-bold display-6 mb-0">Rachit Lahase</p>
+                        <p class="mb-0">Python Backend Developer</p>
+                    </div>
+
+                    <div class="">
+                        <a href="https://github.com/Rachi358" target="_blank" rel="noopener noreferrer"><span
+                                class="icons bi bi-terminal"></span></a>
+                        <a href="" class="text-decoration-none"><span class="icons bi bi-database"></span></a>
+                        <a href="#contact" class="text-decoration-none"><span class="icons bi bi-envelope"></span></a>
+                    </div>
+                </div>
+                <div class="border-top my-4"></div>
+                <div class="d-flex flex-column justify-content-between flex-md-row gap-2">
+                    <p class="mb-0">© 2026 Rachit Lahase. All rights reserved.</p>
+                    <p class="fst-italic mb-0">Designed &amp; built with passion</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Your JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+
+
+</html>
